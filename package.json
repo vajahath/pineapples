@@ -2,9 +2,9 @@
 	"name": "pineapples",
 	"version": "1.0.0",
 	"description": "Express helper utilities for rest api creation and validation.",
-	"main": "index.js",
+	"main": "src/index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "./node_modules/.bin/mocha ./tests --recursive --reporter spec"
 	},
 	"repository": {
 		"type": "git",
@@ -18,9 +18,14 @@
 	"homepage": "https://github.com/vajahath/pineapples#readme",
 	"dependencies": {
 		"bluebird": "^3.5.0",
+		"lme": "^1.5.1",
 		"lodash": "^4.17.4",
 		"password-validator": "^3.0.0",
 		"serialize-error": "^2.1.0",
 		"validator": "^7.0.0"
+	},
+	"devDependencies": {
+		"chai": "^3.5.0",
+		"mocha": "^3.3.0"
 	}
 }

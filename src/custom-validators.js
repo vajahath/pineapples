@@ -11,8 +11,8 @@ const isObject = require('./validators/isObject');
 
 const userPassword = new passwordValidator();
 userPassword
-	.isMin(8)
-	.isMax(100)
+	.is().min(8)
+	.is().max(100)
 	.not().spaces();
 
 const isGoodStages = function(value) {
