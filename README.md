@@ -1,4 +1,6 @@
 # pineapples
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/vajahath/pineapples.svg)](https://greenkeeper.io/)
 Express helper utilities for rest api creation and validation.
 
 repo in beta.
