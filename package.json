@@ -1,0 +1,26 @@
+{
+	"name": "pineapples",
+	"version": "1.0.0",
+	"description": "Express helper utilities for rest api creation and validation.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vajahath/pineapples.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/vajahath/pineapples/issues"
+	},
+	"homepage": "https://github.com/vajahath/pineapples#readme",
+	"dependencies": {
+		"bluebird": "^3.5.0",
+		"lodash": "^4.17.4",
+		"password-validator": "^3.0.0",
+		"serialize-error": "^2.1.0",
+		"validator": "^7.0.0"
+	}
+}
